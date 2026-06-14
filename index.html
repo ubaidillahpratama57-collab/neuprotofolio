@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio Neobrutalism</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- LOADING SCREEN -->
+  <div id="loadingScreen" class="loading-screen">
+    <div class="loader">
+      <div class="loader-shape loader-shape-1"></div>
+      <div class="loader-shape loader-shape-2"></div>
+      <div class="loader-shape loader-shape-3"></div>
+    </div>
+    <p class="loader-text">Loading...</p>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="nav-logo">Portofolio.</a>
+      <ul class="nav-menu" id="navMenu">
+        <li class="nav-item"><a href="#hero" class="nav-link">Beranda</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link">Tentang</a></li>
+        <li class="nav-item"><a href="#skills" class="nav-link">Skill</a></li>
+        <li class="nav-item"><a href="#projects" class="nav-link">Proyek</a></li>
+        <li class="nav-item"><a href="#achievements" class="nav-link">Prestasi</a></li>
+        <li class="nav-item"><a href="#testimonials" class="nav-link">Testimoni</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">Kontak</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode">
+          <i class="fas fa-moon"></i>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- FLOATING SHAPES -->
+  <div class="floating-shapes" id="floatingShapes">
+    <div class="shape shape-1"></div>
+    <div class="shape shape-2"></div>
+    <div class="shape shape-3"></div>
+    <div class="shape shape-4"></div>
+    <div class="shape shape-5"></div>
+  </div>
+
+  <!-- HERO SECTION -->
+  <section id="hero" class="hero">
+    <div class="container hero-container">
+      <div class="hero-image-wrapper">
+        <div class="hero-image">
+          <img src="https://api.dicebear.com/9.x/initials/svg?seed=John&backgroundColor=FFD93D" alt="Profile Photo" />
+        </div>
+      </div>
+      <div class="hero-content">
+        <p class="hero-greeting">Halo, Saya</p>
+        <h1 class="hero-name">Dian Abidin</h1>
+        <h2 class="hero-title">Web Developer & UI Designer</h2>
+        <p class="hero-desc">
+          Saya seorang pengembang web yang bersemangat dalam menciptakan pengalaman digital yang unik, kreatif, dan fungsional dengan sentuhan desain yang berani.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">Lihat Proyek</a>
+          <a href="#contact" class="btn btn-secondary">Hubungi Saya</a>
+        </div>
+        <div class="hero-social">
+          <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" class="social-icon" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+          <a href="#" class="social-icon" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="about section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">About</span>
+        <h2 class="section-title">Tentang Saya</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-content">
+        <div class="about-text">
+          <p>Halo! Saya <strong>Dian abidin</strong>, seorang Web Developer dan UI Designer yang berbasis di Indonesia. Saya memiliki ketertarikan besar dalam dunia desain dan teknologi sejak kecil.</p>
+          <p>Saya percaya bahwa setiap baris kode adalah karya seni. Dengan pendekatan neobrutalism, saya menggabungkan fungsi dan estetika untuk menciptakan website yang tidak hanya bekerja dengan baik, tetapi juga tampil berani dan berkarakter.</p>
+          <p>Saat ini saya aktif mengerjakan berbagai proyek freelance dan terus belajar teknologi terbaru untuk meningkatkan kualitas karya saya.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-card-item"><span class="about-label">Nama</span><span class="about-value">John Doe</span></div>
+          <div class="about-card-item"><span class="about-label">Umur</span><span class="about-value">20 Tahun</span></div>
+          <div class="about-card-item"><span class="about-label">Lokasi</span><span class="about-value">Jakarta, Indonesia</span></div>
+          <div class="about-card-item"><span class="about-label">Pendidikan</span><span class="about-value">S1 Informatika</span></div>
+          <div class="about-card-item"><span class="about-label">Hobi</span><span class="about-value">Coding, Desain, Musik</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section id="skills" class="skills section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Skills</span>
+        <h2 class="section-title">Keahlian Saya</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card" style="--card-color: #FFD93D;">
+          <div class="skill-icon"><i class="fab fa-html5"></i></div>
+          <h3 class="skill-name">HTML</h3>
+          <div class="progress-bar">
+            <div class="progress-fill" data-progress="95"></div>
+          </div>
+        </div>
+        <div class="skill-card" style="--card-color: #4D96FF;">
+          <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+          <h3 class="skill-name">CSS</h3>
+          <div class="progress-bar">
+            <div class="progress-fill" data-progress="90"></div>
+          </div>
+        </div>
+        <div class="skill-card" style="--card-color: #FF6B6B;">
+          <div class="skill-icon"><i class="fab fa-js"></i></div>
+          <h3 class="skill-name">JavaScript</h3>
+          <div class="progress-bar">
+            <div class="progress-fill" data-progress="85"></div>
+          </div>
+        </div>
+        <div class="skill-card" style="--card-color: #FFD93D;">
+          <div class="skill-icon"><i class="fab fa-python"></i></div>
+          <h3 class="skill-name">Python</h3>
+          <div class="progress-bar">
+            <div class="progress-fill" data-progress="80"></div>
+          </div>
+        </div>
+        <div class="skill-card" style="--card-color: #4D96FF;">
+          <div class="skill-icon"><i class="fas fa-paint-brush"></i></div>
+          <h3 class="skill-name">UI/UX Design</h3>
+          <div class="progress-bar">
+            <div class="progress-fill" data-progress="85"></div>
+          </div>
+        </div>
+        <div class="skill-card" style="--card-color: #FF6B6B;">
+          <div class="skill-icon"><i class="fab fa-react"></i></div>
+          <h3 class="skill-name">React</h3>
+          <div class="progress-bar">
+            <div class="progress-fill" data-progress="75"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section id="projects" class="projects section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Projects</span>
+        <h2 class="section-title">Proyek Saya</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-img" style="background-color: #FFD93D;">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">E-Commerce App</h3>
+            <p class="project-desc">Aplikasi e-commerce modern dengan fitur keranjang belanja dan pembayaran online.</p>
+            <div class="project-tags">
+              <span>React</span><span>Node.js</span><span>MongoDB</span>
+            </div>
+            <div class="project-actions">
+              <a href="#" class="btn btn-sm btn-primary">Demo</a>
+              <a href="#" class="btn btn-sm btn-secondary">GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img" style="background-color: #4D96FF;">
+            <i class="fas fa-mobile-alt"></i>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Weather Dashboard</h3>
+            <p class="project-desc">Dashboard cuaca real-time dengan visualisasi data interaktif dan animasi.</p>
+            <div class="project-tags">
+              <span>JavaScript</span><span>API</span><span>Chart.js</span>
+            </div>
+            <div class="project-actions">
+              <a href="#" class="btn btn-sm btn-primary">Demo</a>
+              <a href="#" class="btn btn-sm btn-secondary">GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img" style="background-color: #FF6B6B;">
+            <i class="fas fa-gamepad"></i>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Game Platform</h3>
+            <p class="project-desc">Platform game edukasi interaktif untuk anak-anak dengan berbagai macam permainan.</p>
+            <div class="project-tags">
+              <span>Python</span><span>Pygame</span><span>HTML5</span>
+            </div>
+            <div class="project-actions">
+              <a href="#" class="btn btn-sm btn-primary">Demo</a>
+              <a href="#" class="btn btn-sm btn-secondary">GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img" style="background-color: #FFD93D;">
+            <i class="fas fa-robot"></i>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">AI Chatbot</h3>
+            <p class="project-desc">Chatbot AI dengan natural language processing untuk customer service.</p>
+            <div class="project-tags">
+              <span>Python</span><span>TensorFlow</span><span>Flask</span>
+            </div>
+            <div class="project-actions">
+              <a href="#" class="btn btn-sm btn-primary">Demo</a>
+              <a href="#" class="btn btn-sm btn-secondary">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS SECTION -->
+  <section id="achievements" class="achievements section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Achievements</span>
+        <h2 class="section-title">Prestasi & Pengalaman</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="achievements-grid">
+        <div class="achievement-card">
+          <div class="achievement-icon"><i class="fas fa-trophy"></i></div>
+          <h3 class="achievement-title">Juara 1 Hackathon</h3>
+          <p class="achievement-desc">Inovasi Aplikasi Pendidikan Digital Tingkat Nasional 2024</p>
+          <span class="achievement-year">2024</span>
+        </div>
+        <div class="achievement-card">
+          <div class="achievement-icon"><i class="fas fa-certificate"></i></div>
+          <h3 class="achievement-title">Sertifikat Google IT</h3>
+          <p class="achievement-desc">Google IT Automation with Python Professional Certificate</p>
+          <span class="achievement-year">2024</span>
+        </div>
+        <div class="achievement-card">
+          <div class="achievement-icon"><i class="fas fa-users"></i></div>
+          <h3 class="achievement-title">Ketua Himpunan</h3>
+          <p class="achievement-desc">Ketua Himpunan Mahasiswa Informatika Periode 2023-2024</p>
+          <span class="achievement-year">2023</span>
+        </div>
+        <div class="achievement-card">
+          <div class="achievement-icon"><i class="fas fa-laptop"></i></div>
+          <h3 class="achievement-title">Juara 3 Web Design</h3>
+          <p class="achievement-desc">Lomba Desain Web Antarmahasiswa se-Jabodetabek</p>
+          <span class="achievement-year">2023</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS SECTION -->
+  <section id="testimonials" class="testimonials section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Testimonials</span>
+        <h2 class="section-title">Apa Kata Mereka</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-quote"><i class="fas fa-quote-left"></i></div>
+          <p class="testimonial-text">"John adalah developer yang luar biasa! Hasil kerjaannya selalu rapi, tepat waktu, dan desainnya sangat kreatif. Recommended banget!"</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar" style="background-color: #FFD93D;">S</div>
+            <div>
+              <h4 class="testimonial-name">Sarah Wijaya</h4>
+              <p class="testimonial-role">CEO, TechStart</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-quote"><i class="fas fa-quote-left"></i></div>
+          <p class="testimonial-text">"Pengerjaan project website company profile sangat memuaskan! Komunikasi lancar, revisi cepat, hasil di luar ekspektasi."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar" style="background-color: #4D96FF;">R</div>
+            <div>
+              <h4 class="testimonial-name">Rizky Pratama</h4>
+              <p class="testimonial-role">Founder, Digital Agency</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-quote"><i class="fas fa-quote-left"></i></div>
+          <p class="testimonial-text">"Kreatif, detail, dan very professional! Desain UI/UX yang dibuat John benar-benar user-friendly dan modern. Pasti akan kerja sama lagi!"</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar" style="background-color: #FF6B6B;">M</div>
+            <div>
+              <h4 class="testimonial-name">Maya Sari</h4>
+              <p class="testimonial-role">Product Manager, StartupID</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="contact section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Contact</span>
+        <h2 class="section-title">Hubungi Saya</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="contact-wrapper">
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="name">Nama</label>
+            <input type="text" id="name" name="name" placeholder="Masukkan nama Anda" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Pesan</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tulis pesan Anda..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-submit">
+            <span>Kirim Pesan</span>
+            <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+        <div class="contact-info">
+          <div class="contact-card">
+            <i class="fas fa-envelope"></i>
+            <h4>Email</h4>
+            <p>john.doe@example.com</p>
+          </div>
+          <div class="contact-card">
+            <i class="fas fa-map-marker-alt"></i>
+            <h4>Lokasi</h4>
+            <p>Jakarta, Indonesia</p>
+          </div>
+          <div class="contact-card">
+            <i class="fas fa-phone"></i>
+            <h4>Telepon</h4>
+            <p>+62 812-3456-7890</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-social">
+        <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" class="social-icon" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+        <a href="#" class="social-icon" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+      <p class="footer-text">Designed with ❤️ in Neobrutalism Style</p>
+      <p class="footer-copy">&copy; <span id="year"></span> John Doe. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- CURSOR -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
